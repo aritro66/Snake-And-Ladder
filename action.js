@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             dice.style.backgroundImage=`url(start3.gif)`;
             flag=1;
             allow=1;
+            chk=1;
         } 
      });
     document.getElementById('start').addEventListener('click',()=>{
