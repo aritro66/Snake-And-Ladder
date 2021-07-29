@@ -34,16 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         chk=1;
         document.getElementById('Menu').style.display='none';
     });
-    document.getElementById('quit').addEventListener('click',()=>{
-        window.close();
-    });
-    document.getElementById('close').addEventListener('click',()=>{
-        if(chk==1)
-        {
-
-            window.close();
-        }
-    });
+    
     function movecomp(x) {
         comp.classList.add('animate');
         setTimeout(() => {
