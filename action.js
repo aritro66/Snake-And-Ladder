@@ -12,11 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
     var replay = document.getElementById('replay');
     var flag = 1;
     var chk = 0;
+    var chk2 = 0;
     var pointer_user = 1;
     var pointer_comp = 1;
     var allow=1;
     replay.addEventListener('click', () => {
-        if(chk==1)
+        if(chk2==1)
         {
             pointer_user=1;
             pointer_comp=1;
@@ -31,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } 
      });
     document.getElementById('start').addEventListener('click',()=>{
-        chk=1;
+        chk=1;chk2=1;
         document.getElementById('Menu').style.display='none';
     });
     
